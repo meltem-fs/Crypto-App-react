@@ -31,3 +31,22 @@ p{
     width: 50rem;
     margin: 2rem auto;
 }
+
+.input{
+    width: 30rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+input{
+    padding: 0.5rem 2rem;
+}
+button{
+     padding: 0.7rem 2rem;
+     margin-left: 1rem;
+     background-color: rgb(255, 0, 0);
+     border: none;
+     border-radius: 10px;
+}
+button:hover{
+transform: scale(1.03);
+}

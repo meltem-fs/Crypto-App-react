@@ -50,7 +50,7 @@ const handleSubmit = (e) => {
       </form>
 
       <div className="container">
-        <Main data={filteredData} />
+        <Main key={filteredData.id} data={filteredData} />
       </div>
     </div>
   );
